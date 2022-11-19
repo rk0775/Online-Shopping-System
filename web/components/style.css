@@ -1,0 +1,177 @@
+
+.bg-navbar{
+    background-color:#0056b3;
+}
+.bg-navbar2{
+    background-color:white;
+    color:darkslateblue;
+}
+.bg-support{
+    background-color:transparent;
+}
+.bg-support:focus{
+    color:#007bff;
+    background-color:transparent;
+    border-bottom: 1px solid #007bff;
+     font-family: mincho;
+     font-size:18px;
+}
+.my-input{
+    outline: none;
+    border:none;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgb(128,128,128);
+    padding-left:20px;
+    padding-bottom: 5px;
+}
+.my-label{
+    outline: none;
+    border:none;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(128,128,128,.3);
+
+    padding-bottom: 5px;
+}
+
+.my-input:hover{
+     border-bottom: 1px solid #007bff;
+     font-family: mincho;
+     font-size:18px;
+     color:#007bff;
+}
+.s-style{
+    font-size:35px;
+    font-family:mincho;
+}
+.text-style{
+    font-family:mincho;
+}
+.invalid-feedback , .valid-feedback{
+    font-size:12px;
+    text-align:right;
+}
+.card-hover:hover{
+    background-color:rgb(135,207,235);
+}
+.hover-cart-border:hover{
+    box-shadow:0.5px 1px #0056b3;
+}
+.hover:hover{
+    box-shadow:1px 1px #0056b3;
+}
+
+.sidebar{
+    position:fixed;
+    background: #0056b3;
+    top:50px;
+    left:-250px;
+    height:100%;
+    width:250px;
+    transition: 0.5s;
+    z-index:10 !important;
+    
+}
+.sidebar2{
+    position:fixed;
+    background: #0056b3;
+    top:50px;
+    left:-10px;
+    height:100%;
+    width:100px;
+    padding-top:50px;
+   
+}
+.adj{
+    box-sizing: border-box;
+    padding-left:100px;
+    margin-top:100px;
+}
+.sidebar2 div:hover{
+    background: #000099;
+    
+}
+.sidebar2 a span{
+    font-size:35px;
+    margin-top: 10px;
+     opacity: 0.7;
+}
+@media screen and (max-width:400px){
+   .sidebar2{
+    position:fixed;
+    background: #0056b3;
+    top:50px;
+    left:-10px;
+    height:100%;
+    width:60px;
+    padding-top:20px;
+    
+} 
+
+
+.adj{
+    box-sizing: border-box;
+    padding-left:60px;
+    margin-top:60px;
+}
+.sidebar2 a span{
+    font-size:30px;
+     opacity: 0.7;
+}
+
+}
+.activeSidebar{
+    left:0px;
+}
+#sideOpen,#sideClose{
+    cursor:pointer; 
+    margin:0;
+    padding:0;
+}
+.sidenav{
+     font-size:30px;
+}
+.list a{
+      padding:0px 0px 5px 30px;
+    display:block;
+    text-decoration: none;
+    color:white;
+}
+#category{
+     padding:0px 0px 5px 35px;
+}
+.dropdown-menu{
+    border:none;
+}
+.dropdown-menu a{
+    color:white;
+    margin-left: 50px;
+}
+.dropdown-menu a:hover{
+   background-color: #007bff;
+}
+body{
+    margin-top:55px;
+}
+#card{
+height:230px;
+overflow: hidden;
+border-radius:20px;
+box-shadow:5px 5px  rgba(0,0,0,0.1) ;
+box-sizing: border-box;
+}
+.name{
+    font-size: 15px;
+   margin-top:2px;
+}
+.price{
+    margin-top: -10px;
+    color:darkgreen;
+}
+.badge-pill{
+    position: absolute;
+    top:0px;
+    left:-10px;
+    background:black;
+    color:yellow;
+    opacity:0.4;
+}
